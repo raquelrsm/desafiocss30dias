@@ -1,0 +1,72 @@
+
+body{
+    background: black;
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.círculo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    animation-name: transladar;
+    animation-duration: 15s;
+    animation-iteration-count: 6;
+}
+
+.anel {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 0 goldenrod;
+    background: transparent;
+    animation: animate 2.0s linear infinite;
+}
+
+.mensagem{
+    background:transparent;
+    text-align: center;
+    color: goldenrod;
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    line-height: 300px;
+    font-size: 2em;
+}
+
+
+@keyframes transladar{
+    0%{
+        transform: translate(-980px, -150px);
+    }
+
+    50%{
+        transform: translate(500px, -150px);
+    }
+
+    100%{
+        transform: translate(-100px, -150px);
+    }
+}
+
+
+   
+
+  @keyframes animate {
+    
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
