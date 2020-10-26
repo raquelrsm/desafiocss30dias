@@ -88,8 +88,6 @@ body{
     }
 }
 
-
-
 .heart:after{
     content: '';
     width: 100%;
@@ -127,25 +125,3 @@ body{
     }
 }
 
-
-
-
-/*
-.heart:hover:after{
-    background-color: #D62424;
-    background-color: #fff;
-    cursor: pointer;
-    transform: rotate(-90deg) translateY(100px);
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    transition: .5s ease;
-}
-*/
-/*.heart:hover{
-    
-    cursor: pointer;
-    transform: rotate(45deg);
-    transition: .5s ease;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-}*/
