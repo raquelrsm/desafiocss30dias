@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+
+.butns{
+    text-align: center;
+    margin-top: 300px;
+
+
+}
+
+.efeito{
+    border: none;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height:24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+    animation: bounce 1s;
+
+}
+
+.efeito1{
+    background-color: goldenrod;
+}
+
+.efeito1:before{
+    content:'';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:0px;
+    height: 64px;
+    background: rgba(255,255,255, 0.3);
+    border-radius: 10px;
+    transition: all 2s ease;
+   
+}
+
+.efeito1:hover:before{
+    width:100%;
+    
+}
